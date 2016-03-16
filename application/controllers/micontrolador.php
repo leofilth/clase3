@@ -26,6 +26,11 @@ class MiControlador extends CI_Controller {
         $this->layout->setTitle('nosotros page');
         $this->layout->setKeywords('mas keywords');
         $this->layout->setDescripcion('metadescripcion');
-        $this->layout->view('nosotros');
+        //llamamos a una librería js
+        $this->layout->js(array(base_url()."public/js/libreria.js"));
+        //llamamos a una librería css
+        $this->layout->css(array(base_url()."public/css/estilos2.css"));
+        $saludo="hola saludando ando coriendo desnudo por la casa";
+        $this->layout->view('nosotros',compact('saludo'));
     }
 }

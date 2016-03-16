@@ -11,7 +11,7 @@
     <meta name="description" content="<?php echo $this->layout->getDescripcion(); ?>">
 
     <meta name="keywords" content="<?php echo $this->layout->getKeywords(); ?>" />
-    <link href="<?php echo base_url()?>public/css/estilos.css" rel='stylesheet' type='text/css' media='all' />
+    <link href="<?php echo base_url()?>public/css/estilos2.css" rel='stylesheet' type='text/css' media='all' />
     <script type="text/javascript" src="<?php echo base_url()?>public/js/funciones.js"></script>
     <!--*************auxiliares*****************-->
 
