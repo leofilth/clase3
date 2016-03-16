@@ -1,0 +1,1 @@
+<h1 class="muestra">Hola mundo, utilizando Layout</h1>
